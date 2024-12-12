@@ -1,6 +1,3 @@
-def words(sentence): # функция
-    word = sentence.split()  # разделяем строку на слова
-    reversed_words = ' '.join(reversed(word))  # разворачиваем порядок слов и объединяем их обратно
-    return reversed_words
-user_input = input("Введите строку: ") # ввод 
-print("Результат:", words(user_input)) # вывод
+s = str(input("Введите строку")) #ввод строки
+s_reverse = s[::-1] #переворачиваем строку
+print(s_reverse) #вывод развернутой строки
